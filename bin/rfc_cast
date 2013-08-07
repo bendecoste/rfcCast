@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+
+var request = require('../lib/request');
+
+program
+  .version('1.0.0')
+  .option('-c, --cast <number>', 'the rfcCast to start')
+  .parse(process.argv);
+
+request(program.cast, function(err) {
+  if (err) console.log('rfcCast not found');
+
+  process.exit();
+});
+
+
+
+
+

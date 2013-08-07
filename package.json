@@ -1,0 +1,11 @@
+{
+  "name": "rfcCast",
+  "version": "1.0.0",
+  "description": "Have RFC's podcasted to you! Requires say",
+  "dependencies": {
+    "commander": "2.0.0"
+  },
+  "bin": {
+    "rfcCast": "./bin/rfc_cast"
+  }
+}
