@@ -2,7 +2,7 @@
 PodCast your RFCs
 
 ## Installation
-npm install rfcCast
+`npm install rfcCast`
 
 ## Usage
 `rfcCast -c, --cast <number>`
