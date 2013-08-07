@@ -1,6 +1,6 @@
 {
   "name": "rfc-cast",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Have RFC's podcasted to you! Requires say",
   "dependencies": {
     "commander": "2.0.0"
